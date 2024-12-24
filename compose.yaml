@@ -1,0 +1,6 @@
+﻿services:
+  sandbox:
+    image: sandbox
+    build:
+      context: .
+      dockerfile: Dockerfile
